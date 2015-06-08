@@ -1,0 +1,494 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		082C241C9810EC4F269EB392 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A912012C56444A9D24F2D91 /* libPods.a */; };
+		CDC3B0B11B25E75B00D645F0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC3B0B01B25E75B00D645F0 /* main.m */; };
+		CDC3B0B41B25E75B00D645F0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC3B0B31B25E75B00D645F0 /* AppDelegate.m */; };
+		CDC3B0B71B25E75B00D645F0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC3B0B61B25E75B00D645F0 /* ViewController.m */; };
+		CDC3B0BA1B25E75B00D645F0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CDC3B0B81B25E75B00D645F0 /* Main.storyboard */; };
+		CDC3B0BC1B25E75B00D645F0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CDC3B0BB1B25E75B00D645F0 /* Images.xcassets */; };
+		CDC3B0BF1B25E75B00D645F0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CDC3B0BD1B25E75B00D645F0 /* LaunchScreen.xib */; };
+		CDC3B0CB1B25E75B00D645F0 /* MultiDatabaseJoinTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CDC3B0CA1B25E75B00D645F0 /* MultiDatabaseJoinTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CDC3B0C51B25E75B00D645F0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CDC3B0A31B25E75B00D645F0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CDC3B0AA1B25E75B00D645F0;
+			remoteInfo = MultiDatabaseJoin;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A912012C56444A9D24F2D91 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C17169B62F6D1E41BE2D8AB /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		B2ECC1297D08E899C5E9F315 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		CDC3B0AB1B25E75B00D645F0 /* MultiDatabaseJoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiDatabaseJoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC3B0AF1B25E75B00D645F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC3B0B01B25E75B00D645F0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CDC3B0B21B25E75B00D645F0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CDC3B0B31B25E75B00D645F0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CDC3B0B51B25E75B00D645F0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CDC3B0B61B25E75B00D645F0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CDC3B0B91B25E75B00D645F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CDC3B0BB1B25E75B00D645F0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CDC3B0BE1B25E75B00D645F0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CDC3B0C41B25E75B00D645F0 /* MultiDatabaseJoinTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MultiDatabaseJoinTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDC3B0C91B25E75B00D645F0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CDC3B0CA1B25E75B00D645F0 /* MultiDatabaseJoinTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MultiDatabaseJoinTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDC3B0A81B25E75B00D645F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				082C241C9810EC4F269EB392 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC3B0C11B25E75B00D645F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA2153105DD82B837D575CA0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A912012C56444A9D24F2D91 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CDC3B0A21B25E75A00D645F0 = {
+			isa = PBXGroup;
+			children = (
+				CDC3B0AD1B25E75B00D645F0 /* MultiDatabaseJoin */,
+				CDC3B0C71B25E75B00D645F0 /* MultiDatabaseJoinTests */,
+				CDC3B0AC1B25E75B00D645F0 /* Products */,
+				D71050F243DF08F6E2ED6BE9 /* Pods */,
+				CA2153105DD82B837D575CA0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CDC3B0AC1B25E75B00D645F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDC3B0AB1B25E75B00D645F0 /* MultiDatabaseJoin.app */,
+				CDC3B0C41B25E75B00D645F0 /* MultiDatabaseJoinTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDC3B0AD1B25E75B00D645F0 /* MultiDatabaseJoin */ = {
+			isa = PBXGroup;
+			children = (
+				CDC3B0B21B25E75B00D645F0 /* AppDelegate.h */,
+				CDC3B0B31B25E75B00D645F0 /* AppDelegate.m */,
+				CDC3B0B51B25E75B00D645F0 /* ViewController.h */,
+				CDC3B0B61B25E75B00D645F0 /* ViewController.m */,
+				CDC3B0B81B25E75B00D645F0 /* Main.storyboard */,
+				CDC3B0BB1B25E75B00D645F0 /* Images.xcassets */,
+				CDC3B0BD1B25E75B00D645F0 /* LaunchScreen.xib */,
+				CDC3B0AE1B25E75B00D645F0 /* Supporting Files */,
+			);
+			path = MultiDatabaseJoin;
+			sourceTree = "<group>";
+		};
+		CDC3B0AE1B25E75B00D645F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDC3B0AF1B25E75B00D645F0 /* Info.plist */,
+				CDC3B0B01B25E75B00D645F0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CDC3B0C71B25E75B00D645F0 /* MultiDatabaseJoinTests */ = {
+			isa = PBXGroup;
+			children = (
+				CDC3B0CA1B25E75B00D645F0 /* MultiDatabaseJoinTests.m */,
+				CDC3B0C81B25E75B00D645F0 /* Supporting Files */,
+			);
+			path = MultiDatabaseJoinTests;
+			sourceTree = "<group>";
+		};
+		CDC3B0C81B25E75B00D645F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CDC3B0C91B25E75B00D645F0 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D71050F243DF08F6E2ED6BE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B2ECC1297D08E899C5E9F315 /* Pods.debug.xcconfig */,
+				2C17169B62F6D1E41BE2D8AB /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDC3B0AA1B25E75B00D645F0 /* MultiDatabaseJoin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC3B0CE1B25E75B00D645F0 /* Build configuration list for PBXNativeTarget "MultiDatabaseJoin" */;
+			buildPhases = (
+				5C525C3A5CA0A68F82A52400 /* Check Pods Manifest.lock */,
+				CDC3B0A71B25E75B00D645F0 /* Sources */,
+				CDC3B0A81B25E75B00D645F0 /* Frameworks */,
+				CDC3B0A91B25E75B00D645F0 /* Resources */,
+				494E2DA44FD544AD28520EBC /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiDatabaseJoin;
+			productName = MultiDatabaseJoin;
+			productReference = CDC3B0AB1B25E75B00D645F0 /* MultiDatabaseJoin.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CDC3B0C31B25E75B00D645F0 /* MultiDatabaseJoinTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDC3B0D11B25E75B00D645F0 /* Build configuration list for PBXNativeTarget "MultiDatabaseJoinTests" */;
+			buildPhases = (
+				CDC3B0C01B25E75B00D645F0 /* Sources */,
+				CDC3B0C11B25E75B00D645F0 /* Frameworks */,
+				CDC3B0C21B25E75B00D645F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CDC3B0C61B25E75B00D645F0 /* PBXTargetDependency */,
+			);
+			name = MultiDatabaseJoinTests;
+			productName = MultiDatabaseJoinTests;
+			productReference = CDC3B0C41B25E75B00D645F0 /* MultiDatabaseJoinTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDC3B0A31B25E75B00D645F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "ITinance GmbH";
+				TargetAttributes = {
+					CDC3B0AA1B25E75B00D645F0 = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					CDC3B0C31B25E75B00D645F0 = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = CDC3B0AA1B25E75B00D645F0;
+					};
+				};
+			};
+			buildConfigurationList = CDC3B0A61B25E75B00D645F0 /* Build configuration list for PBXProject "MultiDatabaseJoin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CDC3B0A21B25E75A00D645F0;
+			productRefGroup = CDC3B0AC1B25E75B00D645F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDC3B0AA1B25E75B00D645F0 /* MultiDatabaseJoin */,
+				CDC3B0C31B25E75B00D645F0 /* MultiDatabaseJoinTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CDC3B0A91B25E75B00D645F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC3B0BA1B25E75B00D645F0 /* Main.storyboard in Resources */,
+				CDC3B0BF1B25E75B00D645F0 /* LaunchScreen.xib in Resources */,
+				CDC3B0BC1B25E75B00D645F0 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC3B0C21B25E75B00D645F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		494E2DA44FD544AD28520EBC /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5C525C3A5CA0A68F82A52400 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDC3B0A71B25E75B00D645F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC3B0B71B25E75B00D645F0 /* ViewController.m in Sources */,
+				CDC3B0B41B25E75B00D645F0 /* AppDelegate.m in Sources */,
+				CDC3B0B11B25E75B00D645F0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDC3B0C01B25E75B00D645F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDC3B0CB1B25E75B00D645F0 /* MultiDatabaseJoinTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CDC3B0C61B25E75B00D645F0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CDC3B0AA1B25E75B00D645F0 /* MultiDatabaseJoin */;
+			targetProxy = CDC3B0C51B25E75B00D645F0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CDC3B0B81B25E75B00D645F0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC3B0B91B25E75B00D645F0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CDC3B0BD1B25E75B00D645F0 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CDC3B0BE1B25E75B00D645F0 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CDC3B0CC1B25E75B00D645F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CDC3B0CD1B25E75B00D645F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CDC3B0CF1B25E75B00D645F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2ECC1297D08E899C5E9F315 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiDatabaseJoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDC3B0D01B25E75B00D645F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2C17169B62F6D1E41BE2D8AB /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MultiDatabaseJoin/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CDC3B0D21B25E75B00D645F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiDatabaseJoinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiDatabaseJoin.app/MultiDatabaseJoin";
+			};
+			name = Debug;
+		};
+		CDC3B0D31B25E75B00D645F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MultiDatabaseJoinTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MultiDatabaseJoin.app/MultiDatabaseJoin";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDC3B0A61B25E75B00D645F0 /* Build configuration list for PBXProject "MultiDatabaseJoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC3B0CC1B25E75B00D645F0 /* Debug */,
+				CDC3B0CD1B25E75B00D645F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC3B0CE1B25E75B00D645F0 /* Build configuration list for PBXNativeTarget "MultiDatabaseJoin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC3B0CF1B25E75B00D645F0 /* Debug */,
+				CDC3B0D01B25E75B00D645F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDC3B0D11B25E75B00D645F0 /* Build configuration list for PBXNativeTarget "MultiDatabaseJoinTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDC3B0D21B25E75B00D645F0 /* Debug */,
+				CDC3B0D31B25E75B00D645F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDC3B0A31B25E75B00D645F0 /* Project object */;
+}
